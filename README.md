@@ -1,5 +1,5 @@
 # rclone-docker
-docker image for rclone webdav server
+docker image for `rclone serve`
 
 # Usage:
 
