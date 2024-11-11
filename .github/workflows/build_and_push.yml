@@ -9,10 +9,6 @@ on:
     # see https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
     - cron:  '0 0 1 * *'
 
-env:
-  DOCKER_REGISTRY: magicxor
-  DOCKER_IMAGE: rclone-webdav-docker
-
 jobs:
   ubuntu_lts:
     name: Ubuntu LTS
